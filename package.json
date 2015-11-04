@@ -1,0 +1,38 @@
+{
+  "name": "starterkit-electron-react-es6",
+  "version": "0.0.1",
+  "description": "Boilerplate for building apps with Electron, React and ES6",
+  "author": "ronaldofs",
+  "license": "MIT",
+  "main": "init.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronaldofs/starterkit-electron-react-es6"
+  },
+  "bugs": {
+    "url": "https://github.com/ronaldofs/starterkit-electron-react-es6/issues"
+  },
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-atom": "^0.1.0",
+    "gulp-install": "^0.4.0",
+    "gulp-sass": "^2.1.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "run-sequence": "^1.1.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babelify": "^7.2.0",
+    "electron-prebuilt": "^0.34.2",
+    "gulp-eslint": "^1.0.0",
+    "gulp-jscs": "^3.0.0"
+  }
+}
